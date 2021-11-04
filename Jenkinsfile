@@ -22,8 +22,6 @@ pipeline{
         }
 
         // Add the Release stage here
-<<<<<<< HEAD
-=======
 stage('Release') {
 steps {
 sh '''
@@ -32,6 +30,5 @@ oc start-build greeting-console --follow --wait
 '''
 }
 }
->>>>>>> a979dc9... Initial
     }
 }

@@ -9,19 +9,11 @@ spec:
   source:
     type: Git
     git:
-<<<<<<< HEAD
-      uri: 'https://github.com/YOUR_GITHUB_USER/do400-greeting-console'
-=======
       uri: 'https://github.com/NTTComwareKazushiFukebaru/do400-greeting-console'
->>>>>>> a979dc9... Initial
       ref: main
   output:
     to:
       kind: DockerImage
-<<<<<<< HEAD
-      name: quay.io/YOUR_QUAY_USER/greeting-console
-=======
       name: quay.io/k_fukebaru/greeting-console
->>>>>>> a979dc9... Initial
     pushSecret:
       name: quay-credentials
