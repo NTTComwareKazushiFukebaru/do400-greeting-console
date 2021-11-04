@@ -22,5 +22,16 @@ pipeline{
         }
 
         // Add the Release stage here
+<<<<<<< HEAD
+=======
+stage('Release') {
+steps {
+sh '''
+oc project vtbyyv-greetings
+oc start-build greeting-console --follow --wait
+'''
+}
+}
+>>>>>>> a979dc9... Initial
     }
 }
